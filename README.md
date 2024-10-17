@@ -6,22 +6,32 @@ To Interface a 4X4 matrix keypad and show the output on 16X2 LCD display to ARM 
 STM32 CUBE IDE, Proteus 8 simulator .
 ## Theory :
 
-![image](https://github.com/vasanthkumarch/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/36288975/2a4a795e-1674-4329-ae07-3f5e8d5073e2)
-
 4×4 Keypad Module Pin Diagram
-4x4 Keypad module Pin Diagram
-4×4 Keypad module Pin Diagram
-Pin Number	Pin Name	Description
-1	R1	Taken out from 1st  ROW
-2	R2	Taken out from 2nd  ROW
-3	R3	Taken out from 3rd  ROW
-4	R4	Taken out from 4th  ROW
-5	C1	Taken out from 1st  COLUMN
-6	C2	Taken out from 2nd COLUMN
-7	C3	Taken out from 3rd  COLUMN
-8	C4	Taken out from 4th  COLUMN
+
+Pin Number	- Pin Name	- Description
+
+1	- R1	- Taken out from 1st  ROW
+
+2	- R2	- Taken out from 2nd  ROW
+
+3	- R3	- Taken out from 3rd  ROW
+
+4	- R4	- Taken out from 4th  ROW
+
+5	- C1	- Taken out from 1st  COLUMN
+
+6	- C2	- Taken out from 2nd COLUMN
+
+7	- C3	- Taken out from 3rd  COLUMN
+
+8	- C4	- Taken out from 4th  COLUMN
+
+
 4×4 Matrix Keypad Module Hardware Overview
 These Keypad modules are made of thin, flexible membrane material. The 4 x4 keypad module consists of 16 keys, these Keys are organized in a matrix of rows and columns. All these switches are connected to each other with a conductive trace. Normally there is no connection between rows and columns. When we will press a key, then a row and a column make contact.
+
+![image](https://github.com/vasanthkumarch/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/36288975/2a4a795e-1674-4329-ae07-3f5e8d5073e2)
+
 
 ## Procedure : 
  ## LCD 16X2 :
