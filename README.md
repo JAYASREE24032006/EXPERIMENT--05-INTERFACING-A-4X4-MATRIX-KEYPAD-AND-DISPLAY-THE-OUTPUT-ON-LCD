@@ -6,8 +6,6 @@ To Interface a 4X4 matrix keypad and show the output on 16X2 LCD display to ARM 
 STM32 CUBE IDE, Proteus 8 simulator .
 ## Theory :
 
-4×4 Keypad Module Pin Diagram
-
 Pin Number	- Pin Name	- Description
 
 1	- R1	- Taken out from 1st  ROW
@@ -27,9 +25,13 @@ Pin Number	- Pin Name	- Description
 8	- C4	- Taken out from 4th  COLUMN
 
 
-4×4 Matrix Keypad Module Hardware Overview
+#### 4×4 Matrix Keypad Module Hardware Overview :
 These Keypad modules are made of thin, flexible membrane material. The 4 x4 keypad module consists of 16 keys, these Keys are organized in a matrix of rows and columns. All these switches are connected to each other with a conductive trace. Normally there is no connection between rows and columns. When we will press a key, then a row and a column make contact.
 
+
+#### 4×4 Keypad Module Pin Diagram :
+
+ 
 ![image](https://github.com/vasanthkumarch/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/36288975/2a4a795e-1674-4329-ae07-3f5e8d5073e2)
 
 
