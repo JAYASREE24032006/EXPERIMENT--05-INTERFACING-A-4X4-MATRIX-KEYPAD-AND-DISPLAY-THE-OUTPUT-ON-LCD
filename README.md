@@ -1,10 +1,10 @@
-# EX5 - INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD
+# EX4 - INTERFACING A 4X4 MATRIX KEYPAD AND DISPLAY THE OUTPUT ON LCD 
 
-## Aim : 
+## AIM : 
 To Interface a 4X4 matrix keypad and show the output on 16X2 LCD display to ARM controller , and simulate it in Proteus
-## Components required : 
+## COMPONENTS REQUIRED : 
 STM32 CUBE IDE, Proteus 8 simulator .
-## Theory :
+## THEORY :
 
 Pin Number	- Pin Name	- Description
 
@@ -25,17 +25,15 @@ Pin Number	- Pin Name	- Description
 8	- C4	- Taken out from 4th  COLUMN
 
 
-#### 4×4 Matrix Keypad Module Hardware Overview :
+#### 4×4 MATRIX KEYPAD MODULE HARDWARE OVERVIEW :
 These Keypad modules are made of thin, flexible membrane material. The 4 x4 keypad module consists of 16 keys, these Keys are organized in a matrix of rows and columns. All these switches are connected to each other with a conductive trace. Normally there is no connection between rows and columns. When we will press a key, then a row and a column make contact.
 
 
-#### 4×4 Keypad Module Pin Diagram :
+#### 4×4 KEYPAD MODULE PIN DIAGRAM :
 
  
 ![image](https://github.com/vasanthkumarch/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/36288975/2a4a795e-1674-4329-ae07-3f5e8d5073e2)
-
-
-## Procedure : 
+ 
  ## LCD 16X2 :
    16×2 LCD is named so because; it has 16 Columns and 2 Rows. There are a lot of combinations available like,
    8×1, 8×2, 10×2, 16×1, etc. But the most used one is the 16*2 LCD, hence we are using it here.
@@ -47,18 +45,18 @@ Below is the Pinout and Pin Description of 16x2 LCD Module:
 ![image](https://user-images.githubusercontent.com/36288975/233857710-541ac1c2-786c-4dfc-b7b5-e3a4868a9cb6.png)
 ![image](https://user-images.githubusercontent.com/36288975/233857733-05df5dbf-1a1e-479e-85bb-8014a39ad878.png)
 
-### 4-bit and 8-bit Mode of LCD :
+### 4-BIT AND 8-BIT MODE OF LCD :
 
 The LCD can work in two different modes, namely the 4-bit mode and the 8-bit mode. In 4 bit mode we send the data nibble by nibble, first upper nibble and then lower nibble. For those of you who don’t know what a nibble is: a nibble is a group of four bits, so the lower four bits (D0-D3) of a byte form the lower nibble while the upper four bits (D4-D7) of a byte form the higher nibble. This enables us to send 8 bit data.
 
 Whereas in 8 bit mode we can send the 8-bit data directly in one stroke since we use all the 8 data lines.
 
  8-bit mode is faster and flawless than 4-bit mode. But the major drawback is that it needs 8 data lines connected to the microcontroller. This will make us run out of I/O pins on our MCU, so 4-bit mode is widely used. No control pins are used to set these modes. 
- ### LCD Commands :
+ ### LCD COMMANDS :
 
 There are some preset commands instructions in LCD, which we need to send to LCD through some microcontroller. Some important command instructions are given below:
 
-### Hex Code :
+### HEX CODE :
 
 Command to LCD Instruction Register,
 
@@ -98,7 +96,7 @@ C1 - Jump to second line, position 1
 
 C2 - Jump to second line, position 2
  
-## Procedure :
+## PROCEDURE :
 
  1. click on STM 32 CUBE IDE, the following screen will appear
 
@@ -114,7 +112,7 @@ C2 - Jump to second line, position 2
 
 ![image](https://user-images.githubusercontent.com/36288975/226189280-ed5dcf1d-dd8d-43ae-815d-491085f4863b.png)
 
-4.select the program name 
+4. select the program name 
 
 ![image](https://user-images.githubusercontent.com/36288975/226189316-09832a30-4d1a-4d4f-b8ad-2dc28f137711.png)
 
@@ -123,14 +121,14 @@ C2 - Jump to second line, position 2
 
 ![image](https://user-images.githubusercontent.com/36288975/226189378-3abbdee2-0df6-470f-a3cd-79c74e3d3ad8.png)
 
-6.select the appropriate pins as gipo, in or out, USART or required options and configure 
+6. select the appropriate pins as gipo, in or out, USART or required options and configure 
 
 ![image](https://user-images.githubusercontent.com/36288975/226189403-f7179f1a-3eae-4637-826b-ab4ec35ba1e1.png)
 
 ![image](https://user-images.githubusercontent.com/36288975/226189425-2b2414ce-49b3-4b61-a260-c658cb2e4152.png)
 
 
-7.click on cntrl+S , automaticall C program will be generated 
+7. click on cntrl+S , automaticall C program will be generated 
 
 ![image](https://user-images.githubusercontent.com/36288975/226189443-8b43451d-0b14-47e4-a20b-cc09c6ad8458.png)
 
@@ -347,18 +345,18 @@ void key()
 
 
 
-## Output screen shots of proteus :
+## OUTPUT :
 
 ![image](https://github.com/user-attachments/assets/0992b862-12d0-4a79-bb30-e0d3a21cd135)
 
 
  
  
-## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
+## CIRCUIT DIAGRAM : 
 
 ![image](https://github.com/user-attachments/assets/100a2f59-8d82-4553-bb9c-7a4c8547776b)
 
  
  
-## Result :
+## RESULT :
 Interfacing a 4x4 keypad with ARM microcontroller are simulated in proteus and the results are verified.
